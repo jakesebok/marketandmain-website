@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="4" fill="#5C6E37"/>
+  <g stroke="#FBFAF5" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <!-- Fork -->
+    <path d="M11 8v5"/>
+    <path d="M11 8v3M11.5 8v3M10.5 8v3M9.5 8v3"/>
+    <path d="M11 13l-1 11"/>
+    <!-- Knife -->
+    <path d="M21 8c2 1.5 2 6 0 8M21 16l-1 8"/>
+  </g>
+</svg>

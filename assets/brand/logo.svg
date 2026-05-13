@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 440 240" fill="none" role="img" aria-label="Market &amp; Main · Local Eatery">
+  <!-- Seal: olive circle with crossed knife and fork in paper-white -->
+  <circle cx="200" cy="38" r="26" fill="#5C6E37"/>
+  <g stroke="#FBFAF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Fork tines and stem -->
+    <path d="M193 26v6"/>
+    <path d="M190 26v5"/>
+    <path d="M196 26v5"/>
+    <path d="M193 31v17"/>
+    <!-- Knife blade and handle -->
+    <path d="M209 26c2.5 2 2.5 9 0 12"/>
+    <path d="M207 39l-2 9"/>
+  </g>
+  <!-- MARKET & MAIN wordmark -->
+  <text x="200" y="120" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="42" fill="#FBFAF5" letter-spacing="2">MARKET &amp; MAIN</text>
+  <!-- Horizontal rule -->
+  <line x1="80" y1="148" x2="320" y2="148" stroke="#FBFAF5" stroke-width="3"/>
+  <!-- Local Eatery script -->
+  <text x="200" y="200" text-anchor="middle" font-family="Caveat, cursive" font-weight="400" font-style="italic" font-size="44" fill="#FBFAF5">Local Eatery</text>
+</svg>
