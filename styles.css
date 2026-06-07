@@ -383,6 +383,12 @@ p { max-width: 65ch; }
   font-weight: 400;
 }
 
+/* Photo hero (homepage): drop the tint so the sunset reads true; text carries its own legibility */
+.hero--photo .hero__bg::after { display: none; }
+.hero--photo .hero__logo { filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.55)); }
+.hero--photo .hero__tagline { text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.5); }
+.hero--photo .hero__sub { text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7), 0 2px 16px rgba(0, 0, 0, 0.55); }
+
 .hero--page { min-height: clamp(420px, 56dvh, 540px); }
 .hero__page-title { font-family: var(--font-display); font-weight: 700; font-size: clamp(2.5rem, 1.6rem + 3.2vw, 4.5rem); color: var(--paper); line-height: 1; }
 .hero__page-subtitle { font-family: var(--font-script); font-weight: 400; font-size: clamp(1.5rem, 1.2rem + 0.8vw, 2rem); color: var(--olive-light); margin-top: 0.5rem; line-height: 1; }
