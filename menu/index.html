@@ -3,81 +3,259 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Menu Preview · Market &amp; Main · Troy, IL</title>
-<meta name="description" content="A preview of what Market &amp; Main will serve. Comfort food with global flavors, opening 2026 in Troy, Illinois. Sister to Cleveland-Heath in Edwardsville.">
+<title>Menu · Market &amp; Main · Troy, IL</title>
+<meta name="description" content="The Market &amp; Main menu in Troy, Illinois. Comfort food with intention: appetizers, salads, sandwiches, sides, veggies, dinner-only entrees, and dessert. Sourced locally, made from scratch.">
 <meta name="theme-color" content="#1F2A12">
-<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 <link rel="canonical" href="https://www.marketandmaintroy.com/menu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Market &amp; Main Menu">
+<meta property="og:description" content="Comfort food with intention. Appetizers, salads, sandwiches, dinner-only entrees, and dessert. Troy, Illinois.">
+<meta property="og:url" content="https://www.marketandmaintroy.com/menu">
+<meta property="og:image" content="https://www.marketandmaintroy.com/assets/images/table-spread.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Market & Main",
+  "alternateName": "Market and Main Local Eatery",
+  "image": "https://www.marketandmaintroy.com/assets/images/table-spread.jpg",
+  "url": "https://www.marketandmaintroy.com/",
+  "telephone": "+1-618-505-0177",
+  "email": "marketandmaintroy@gmail.com",
+  "servesCuisine": ["American", "Comfort Food", "New American"],
+  "priceRange": "$$",
+  "menu": "https://www.marketandmaintroy.com/menu",
+  "acceptsReservations": "True",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "106 N Main Street",
+    "addressLocality": "Troy",
+    "addressRegion": "IL",
+    "postalCode": "62294",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"], "opens": "15:00", "closes": "21:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "15:00", "closes": "22:00" }
+  ]
+}
+</script>
 </head>
-<body>
+<body class="menu-page">
 
 <a class="sr-only" href="#main">Skip to main content</a>
 
 <header class="nav nav--solid" data-nav>
   <div class="container nav__inner">
-    <a href="/" class="nav__brand" aria-label="Market and Main home"><img src="/assets/brand/logo.svg" alt="Market &amp; Main" class="nav__brand-img nav__brand-img--light"><img src="/assets/brand/logo-dark.svg" alt="" aria-hidden="true" class="nav__brand-img nav__brand-img--dark"></a>
-    <nav aria-label="Primary"><ul class="nav__links"><li><a href="/about">About</a></li><li><a href="/menu" aria-current="page">Menu Preview</a></li><li><a href="/contact">Visit</a></li></ul></nav>
+    <a href="/" class="nav__brand" aria-label="Market and Main home"><img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main" class="nav__brand-img nav__brand-img--light"><img src="/assets/brand/logo-official.png" alt="" aria-hidden="true" class="nav__brand-img nav__brand-img--dark"></a>
+    <nav aria-label="Primary"><ul class="nav__links"><li><a href="/about">About</a></li><li><a href="/menu" aria-current="page">Menu</a></li><li><a href="/contact">Visit</a></li></ul></nav>
     <div class="nav__actions">
-      <a href="/#stay-in-touch" class="nav__cta">Get Updates</a>
+      <a href="/contact" class="nav__cta">Reserve</a>
       <button class="nav__menu-btn" type="button" aria-label="Open menu" data-drawer-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     </div>
   </div>
 </header>
 
 <div class="nav__drawer" data-drawer aria-hidden="true">
-  <div class="nav__drawer-head"><img src="/assets/brand/logo.svg" alt="Market &amp; Main"><button class="nav__menu-btn" type="button" aria-label="Close menu" data-drawer-close><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
-  <ul class="nav__drawer-links"><li><a href="/about">About</a></li><li><a href="/menu" aria-current="page">Menu Preview</a></li><li><a href="/contact">Visit</a></li><li><a href="/#stay-in-touch">Get Updates</a></li></ul>
-  <div class="nav__drawer-foot"><span>104 N Main St · Troy, IL</span><span>Opening 2026</span></div>
+  <div class="nav__drawer-head"><img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main"><button class="nav__menu-btn" type="button" aria-label="Close menu" data-drawer-close><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+  <ul class="nav__drawer-links"><li><a href="/about">About</a></li><li><a href="/menu" aria-current="page">Menu</a></li><li><a href="/contact">Visit</a></li><li><a href="tel:+16185050177">618.505.0177</a></li></ul>
+  <div class="nav__drawer-foot"><span>106 N Main St · Troy, IL</span><span>Tue–Sat from 3pm</span></div>
 </div>
 
 <main id="main">
 
-  <section class="section" style="padding-top: clamp(7rem, 12vh, 9rem);">
-    <div class="container container--narrow">
-      <div class="section-head section-head--center">
-        <span class="eyebrow">Menu preview</span>
-        <h1 style="font-size: clamp(2.25rem, 1.6rem + 2.6vw, 3.5rem);">A taste of what's<br><span class="italic-display" style="color: var(--olive);">coming.</span></h1>
-        <p class="lead" style="margin-inline: auto;">The full menu drops the week we open. Here's the direction Evan is cooking toward. Subject to change as the kitchen comes together.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--tight" style="padding-top: 0;">
+  <!-- ============ COMPACT INTRO ============ -->
+  <section class="section section--tight" style="padding-top: clamp(7rem, 12vh, 9rem); padding-bottom: var(--space-4);">
     <div class="container">
-      <div class="info-grid info-grid--three reveal" data-stagger>
-        <div class="info-card">
-          <img src="/assets/images/placeholder-dish-burger.webp" alt="Burger" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 2px;" loading="lazy">
-          <span class="eyebrow">The burger</span>
-          <h3>A burger you've had,<br>done the right way.</h3>
-          <p class="text-muted">House-ground, smashed, sharp cheddar, caramelized onion, brioche. Hand-cut fries. The plate everyone orders the first time.</p>
-        </div>
-        <div class="info-card">
-          <img src="/assets/images/placeholder-dish-chicken.webp" alt="Chicken dish" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 2px;" loading="lazy">
-          <span class="eyebrow">The chicken sandwich</span>
-          <h3>Comfort food,<br>worldly flavors.</h3>
-          <p class="text-muted">Fried chicken with Szechuan heat. Or a Nashville hot. Or a banh mi. The lineup will rotate. That's the fun.</p>
-        </div>
-        <div class="info-card">
-          <img src="/assets/images/garden-salads.jpg" alt="Fresh seasonal salads on a wood table at Market &amp; Main" style="width: 100%; aspect-ratio: 4/3; object-fit: cover; object-position: center; border-radius: 2px;" loading="lazy">
-          <span class="eyebrow">Seasonal plates</span>
-          <h3>What the farms<br>send this week.</h3>
-          <p class="text-muted">A short list of plates that change with the season. Local ingredients pulled into globally inspired preparations.</p>
-        </div>
+      <div style="display: grid; gap: var(--space-3); max-width: 760px;">
+        <span class="eyebrow">The menu</span>
+        <h1 style="font-size: clamp(1.875rem, 1.4rem + 2vw, 2.75rem); line-height: 1.05;">Simple ingredients. <span class="italic-display" style="color: var(--olive);">Serious food.</span></h1>
+        <p class="text-muted" style="font-size: 1rem; max-width: 60ch;">Our menu changes with the seasons and the farms around us. Honest food with a few surprises along the way. Here is what the kitchen is serving right now.</p>
       </div>
     </div>
   </section>
 
-  <section class="section section--olive">
-    <div class="container container--narrow" style="text-align: center;">
-      <span class="eyebrow" style="color: var(--olive-pale);">Pickup &amp; weekday hours</span>
-      <h2 style="color: var(--paper);">A neighborhood<br><span class="italic-display" style="color: var(--olive-pale);">weeknight dinner.</span></h2>
-      <div class="prose" style="margin: var(--space-4) auto 0; max-width: 56ch;">
-        <p>Closed Mondays. Open Tuesday through Friday from 11am to 9pm. Saturday 11 to 10. Sunday is brunch-only.</p>
-        <p>Pickup will be ready when you are — no delivery. The room scales for date night, the takeout window scales for the rest of the week.</p>
+  <!-- ============ STICKY SECTION NAV ============ -->
+  <nav class="menu-subnav" aria-label="Menu sections">
+    <div class="container">
+      <div class="menu-subnav__inner">
+        <a href="#appetizers" data-menu-link>Appetizers</a>
+        <a href="#salads" data-menu-link>Salads</a>
+        <a href="#sandwiches" data-menu-link>Sandwiches</a>
+        <a href="#sides" data-menu-link>Sides</a>
+        <a href="#veggies" data-menu-link>Veggies</a>
+        <a href="#entrees" data-menu-link>Entrees</a>
+        <a href="#dessert" data-menu-link>Dessert</a>
+        <button type="button" class="menu-subnav__toggle" data-theme-toggle aria-label="Toggle easier-to-read dark mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" width="14" height="14" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <span>Easier to read</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ TWO-COLUMN LAYOUT ============ -->
+  <section class="section" style="padding-block: var(--space-6) var(--space-7);">
+    <div class="container">
+      <div class="menu-layout">
+
+        <!-- ASIDE: GOOD TO KNOW + GALLERY -->
+        <aside class="menu-layout__aside">
+          <div style="position: sticky; top: 164px; display: grid; gap: var(--space-5);">
+            <div class="specials-card">
+              <span class="specials-card__eyebrow">Good to know</span>
+              <p class="specials-card__title">Dinner service, nightly.</p>
+              <div class="specials-card__weekly" style="margin-top: var(--space-4);">
+                <div class="specials-card__day">
+                  <span class="specials-card__day-label">Tuesday – Thursday</span>
+                  <span class="specials-card__day-title">3pm – 9pm</span>
+                </div>
+                <div class="specials-card__day">
+                  <span class="specials-card__day-label">Friday – Saturday</span>
+                  <span class="specials-card__day-title">3pm – 10pm</span>
+                </div>
+                <div class="specials-card__day">
+                  <span class="specials-card__day-label">Monday</span>
+                  <span class="specials-card__day-title">Closed</span>
+                </div>
+              </div>
+              <hr>
+              <p class="specials-card__note">Add a protein to any salad: 5oz chicken breast, 8 shrimp, or 6oz sirloin. All sandwiches come with fries or a simple green salad.</p>
+              <p class="specials-card__note" style="color: var(--olive-light);">Entrees are dinner only, available from 5pm nightly.</p>
+              <a href="/contact" class="specials-card__cta">Hours &amp; directions →</a>
+            </div>
+
+            <div class="menu-mini-gallery" data-lightbox-gallery>
+              <button type="button" class="menu-mini-gallery__item" data-lightbox-item data-caption="A spread from the kitchen: wraps, wedge salad, and crispy rolls"><img src="/assets/images/table-spread.jpg" alt="A spread of Market &amp; Main dishes on a wood table" loading="lazy"></button>
+              <button type="button" class="menu-mini-gallery__item" data-lightbox-item data-caption="Seasonal salads, pulled from the farms"><img src="/assets/images/garden-salads.jpg" alt="Fresh seasonal salads at Market &amp; Main" loading="lazy"></button>
+              <button type="button" class="menu-mini-gallery__item" style="grid-column: 1 / -1; aspect-ratio: 16/9;" data-lightbox-item data-caption="106 N Main Street, under a Troy sunset"><img src="/assets/images/storefront-sunset.jpg" alt="The Market &amp; Main storefront on Main Street at sunset" loading="lazy"></button>
+            </div>
+          </div>
+        </aside>
+
+        <!-- MAIN MENU CONTENT -->
+        <div class="menu-layout__main">
+
+          <div class="menu-section menu-section--intro" id="appetizers">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Appetizers</span>
+                <span class="menu-section__title-script">To start</span>
+              </span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Chicken Wings</span><span class="menu-item__price">15</span></div><p class="menu-item__desc">House hot, Jamaican jerk, or garlic thyme parmesan.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Baked Pimento</span><span class="menu-item__price">14</span></div><p class="menu-item__desc">House-made pimento cheese spread, panko crust, candied jalapeños, with Ritz crackers.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Pepperoni Rolls</span><span class="menu-item__price">12</span></div><p class="menu-item__desc">Crispy pepperoni, mozzarella, spicy marinara.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Shrimp &amp; Grit Fritz</span><span class="menu-item__price">16</span></div><p class="menu-item__desc">Cajun remoulade, green onion.</p></li>
+            </ul>
+          </div>
+
+          <div class="menu-section" id="salads">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Salads</span>
+                <span class="menu-section__title-script">From the farms</span>
+              </span>
+              <span class="menu-section__title-meta">Add a protein</span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Thai Peanut</span><span class="menu-item__price">13</span></div><p class="menu-item__desc">Kale, cabbage, radish, carrot, wasabi peas, sesame seed, shallots, peanut dressing.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Kentucky Wedge</span><span class="menu-item__price">12</span></div><p class="menu-item__desc">Iceberg, bacon lardons, Danish bleu cheese, crispy onion, balsamic reduction, horseradish bleu cheese dressing.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Caesar</span><span class="menu-item__price">10</span></div><p class="menu-item__desc">Romaine, garlic crumb, shaved parmesan, anchovy caper dressing.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Market Salad</span><span class="menu-item__price">10</span></div><p class="menu-item__desc">Roasted tomatoes, cucumber, hearts of palm, feta, sunflower seeds, garlic herb vinaigrette.</p></li>
+            </ul>
+            <p class="menu-item__note" style="margin-top: var(--space-5);">Add a protein to any salad: 5oz chicken breast, 8 shrimp, or 6oz sirloin.</p>
+          </div>
+
+          <div class="menu-section" id="sandwiches">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Sandwiches</span>
+                <span class="menu-section__title-script">With fries or a salad</span>
+              </span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Gold Rush Burger</span><span class="menu-item__price">18</span></div><p class="menu-item__desc">Pickles, caramelized onion, gold rush sauce, potato bun.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Classic Burger</span><span class="menu-item__price">17</span></div><p class="menu-item__desc">Pickles, American cheese, caramelized onion, lemon garlic aioli, potato bun.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Crispy Szechuan Chicken</span><span class="menu-item__price">17</span></div><p class="menu-item__desc">Chili garlic mayo, Szechuan pickled onion, iceberg lettuce, seeded bun.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Classic Chicken Sando</span><span class="menu-item__price">16</span></div><p class="menu-item__desc">Pickle, lemon garlic aioli, butter lettuce, seeded bun.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Cubano</span><span class="menu-item__price">17</span></div><p class="menu-item__desc">Black forest ham, mojo pork, pickles, swiss cheese, citrus mustard, ciabatta.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Smashed Gyro</span><span class="menu-item__price">18</span></div><p class="menu-item__desc">Tomato, cucumber, red onion, lettuce, feta, tzatziki sauce, lavash.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Veggie</span><span class="menu-item__price">15</span></div><p class="menu-item__desc">Whipped feta, roasted tomato, cucumber, bean sprouts, red onion, focaccia.</p></li>
+            </ul>
+            <p class="menu-item__note" style="margin-top: var(--space-5);">All sandwiches served with fries or a simple green salad.</p>
+          </div>
+
+          <div class="menu-section" id="sides">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Sides</span>
+                <span class="menu-section__title-script">For the table</span>
+              </span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Pretzel Crusted Mac</span><span class="menu-item__price">9</span></div><p class="menu-item__desc">Cheddar, gouda, parmesan, southern béchamel.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Slaw</span><span class="menu-item__price">6</span></div><p class="menu-item__desc">Cabbage, carrot, red onion, Carmen's dressing.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Mashers</span><span class="menu-item__price">6</span></div><p class="menu-item__desc">Skin-on, with butter and cream.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Fries</span><span class="menu-item__price">8</span></div><p class="menu-item__desc">Secret sauce.</p></li>
+            </ul>
+          </div>
+
+          <div class="menu-section" id="veggies">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Veggies</span>
+                <span class="menu-section__title-script">Shareable</span>
+              </span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Grilled Carrots</span><span class="menu-item__price">11</span></div><p class="menu-item__desc">Seasoned yogurt, chili oil, orange segments, pumpkin seeds, fresh dill.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Salt Roasted Beets</span><span class="menu-item__price">10</span></div><p class="menu-item__desc">Goat cheese mousse, pickled shallots, toasted pistachios, fresh thyme.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Parmesan Green Beans</span><span class="menu-item__price">9</span></div><p class="menu-item__desc">Lemon zest, black pepper, parsley.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Broccoli</span><span class="menu-item__price">11</span></div><p class="menu-item__desc">Lime juice, chili crisps, sesame seeds, cilantro, mint, lemon garlic aioli.</p></li>
+            </ul>
+          </div>
+
+          <div class="menu-section" id="entrees">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Entrees</span>
+                <span class="menu-section__title-script">Dinner, from 5pm</span>
+              </span>
+              <span class="menu-section__title-meta">Dinner only</span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Peruvian Chicken</span><span class="menu-item__price">35</span></div><p class="menu-item__desc">Aji verde sauce, aji amarillo sauce, cilantro lime rice, black beans and plantain chips.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Creek Stone Filet</span><span class="menu-item__price">45</span></div><p class="menu-item__desc">8oz tenderloin, mashed potatoes, parmesan green beans, red chimichurri.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Pappardelle</span><span class="menu-item__price">24</span></div><p class="menu-item__desc">Romesco sauce, blistered tomatoes, ciliegine, garlic bread crumb, fresh basil.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">North Atlantic Blue Mussels</span><span class="menu-item__price">21</span></div><p class="menu-item__desc">Shallots, thyme, bacon, white wine, fresh parsley, with toasty baguette.</p></li>
+            </ul>
+          </div>
+
+          <div class="menu-section" id="dessert">
+            <h2 class="menu-section__title">
+              <span class="menu-section__title-stack">
+                <span class="menu-section__title-display">Dessert</span>
+                <span class="menu-section__title-script">A sweet finish</span>
+              </span>
+            </h2>
+            <ul class="menu-list">
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">G.F. Chocolate Cake</span><span class="menu-item__price">12</span></div><p class="menu-item__desc">House-made chocolate cream cheese frosting. Gluten free.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Banana Pudding</span><span class="menu-item__price">10</span></div><p class="menu-item__desc">Vanilla pudding, house nilla wafer, bacon caramel.</p></li>
+              <li class="menu-item"><div class="menu-item__head"><span class="menu-item__name">Ice Cream Sandwich</span><span class="menu-item__price">9</span></div><p class="menu-item__desc">Rotating cookie and ice cream flavor. Ask your server about our current selection.</p></li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
   </section>
@@ -85,39 +263,60 @@
   <section class="section section--tight" style="background: var(--bg-elevated); border-block: 1px solid var(--divider);">
     <div class="container container--narrow" style="text-align: center;">
       <span class="eyebrow">A note</span>
-      <h3 style="margin-top: 0.75rem;">The menu locks in opening week.</h3>
+      <h3 style="margin-top: 0.75rem;">The menu changes with the season.</h3>
+      <p class="text-muted" style="max-width: 56ch; margin: 1rem auto 0;">Dishes and prices shift as the farms and markets shift. Please tell your server about allergies and dietary needs. The kitchen can adapt almost anything.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container--narrow" style="text-align: center;">
+      <span class="eyebrow">Come hungry</span>
+      <h2 style="margin-top: 0.5rem;">Pull up a seat<br>on Main Street.</h2>
+      <p class="lead" style="margin: var(--space-4) auto 0;">Open Tuesday through Saturday from 3pm. Walk in, or call ahead.</p>
       <div class="btn-row" style="justify-content: center; margin-top: var(--space-5);">
-        <a href="/#stay-in-touch" class="btn btn--primary btn--lg">Get the Menu in Your Inbox</a>
+        <a href="/contact" class="btn btn--primary btn--lg">Hours &amp; Directions</a>
+        <a href="tel:+16185050177" class="btn btn--secondary btn--lg">Call 618.505.0177</a>
       </div>
     </div>
   </section>
 
 </main>
 
-<aside class="sister-banner">
-  <div class="container sister-banner__inner">
-    <div>
-      <span class="sister-banner__eyebrow">In the meantime</span>
-      <p class="sister-banner__title">The full menu at <strong>Cleveland-Heath</strong> is open seven days out.</p>
-    </div>
-    <a href="https://clevelandheath-website.vercel.app/menu" class="btn">See CH menu →</a>
-  </div>
-</aside>
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-label="Photo viewer">
+  <button class="lightbox__btn lightbox__close" type="button" aria-label="Close" data-lightbox-close>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+  <button class="lightbox__btn lightbox__prev" type="button" aria-label="Previous photo" data-lightbox-prev>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="lightbox__btn lightbox__next" type="button" aria-label="Next photo" data-lightbox-next>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+  <figure class="lightbox__figure">
+    <img class="lightbox__img" alt="" data-lightbox-img>
+    <figcaption class="lightbox__cap" data-lightbox-cap></figcaption>
+    <span class="lightbox__counter" data-lightbox-counter></span>
+  </figure>
+</div>
 
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <img src="/assets/brand/logo.svg" alt="Market &amp; Main">
+        <img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main">
         <span class="footer__tag">Local Eatery · Troy, IL</span>
-        <address class="footer__addr">104 N Main Street<br>Troy, IL 62294<br><a href="/#stay-in-touch">Opening 2026</a></address>
+        <address class="footer__addr">106 N Main Street<br>Troy, IL 62294<br><a href="tel:+16185050177">618.505.0177</a></address>
       </div>
-      <div class="footer__col"><h4>The Restaurant</h4><ul><li><a href="/about">About</a></li><li><a href="/menu">Menu Preview</a></li><li><a href="/contact">Visit</a></li></ul></div>
+      <div class="footer__col"><h4>The Restaurant</h4><ul><li><a href="/about">About</a></li><li><a href="/menu">Menu</a></li><li><a href="/contact">Visit</a></li></ul></div>
       <div class="footer__col"><h4>Sister Restaurant</h4><ul><li><a href="https://clevelandheath-website.vercel.app">Cleveland-Heath</a></li><li><a href="https://clevelandheath-website.vercel.app/about">The Buchholz Story</a></li></ul></div>
     </div>
     <div class="footer__bottom">
       <span>© 2026 Market &amp; Main. All rights reserved.</span>
-      <ul class="footer__social"><li><a href="https://www.instagram.com/marketandmaintroy/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a></li><li><a href="https://www.facebook.com/p/Market-Main-61588604853733/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></li></ul>
+      <ul class="footer__social">
+        <li><a href="https://www.instagram.com/marketandmaintroy" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61588604853733" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></li>
+      </ul>
     </div>
   </div>
 </footer>
@@ -125,8 +324,53 @@
 <script>
   (function(){var n=document.querySelector("[data-nav]");if(!n)return;var u=function(){if(window.scrollY>40)n.classList.add("is-scrolled");else n.classList.remove("is-scrolled");};u();window.addEventListener("scroll",u,{passive:true});})();
   (function(){var d=document.querySelector("[data-drawer]");if(!d)return;var o=function(){d.dataset.open="true";d.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll");},c=function(){d.dataset.open="false";d.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");};document.querySelectorAll("[data-drawer-open]").forEach(function(b){b.addEventListener("click",o);});document.querySelectorAll("[data-drawer-close]").forEach(function(b){b.addEventListener("click",c);});d.querySelectorAll("a").forEach(function(a){a.addEventListener("click",c);});document.addEventListener("keydown",function(e){if(e.key==="Escape")c();});})();
-  // Cinematic reveals
-  (function(){if(!("IntersectionObserver" in window))return;var els=document.querySelectorAll(".reveal,[data-stagger]");if(!els.length)return;var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add("is-visible");io.unobserve(e.target);}});},{rootMargin:"0px 0px -10% 0px",threshold:0.08});els.forEach(function(el){io.observe(el);});})();
+  (function(){var r=document.documentElement,s=localStorage.getItem("mm-menu-theme");if(s)r.setAttribute("data-theme",s);document.querySelectorAll("[data-theme-toggle]").forEach(function(b){b.addEventListener("click",function(){var n=r.getAttribute("data-theme")==="dark"?"light":"dark";r.setAttribute("data-theme",n);localStorage.setItem("mm-menu-theme",n);});});})();
+  (function(){
+    var links=document.querySelectorAll("[data-menu-link]");
+    if(!links.length||!("IntersectionObserver" in window))return;
+    var byId={};
+    links.forEach(function(a){var id=a.getAttribute("href").slice(1);var el=document.getElementById(id);if(el)byId[id]=a;});
+    var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove("is-active");});var a=byId[e.target.id];if(a)a.classList.add("is-active");}});},{rootMargin:"-160px 0px -60% 0px",threshold:0});
+    Object.values(byId).forEach(function(a){var el=document.getElementById(a.getAttribute("href").slice(1));if(el)io.observe(el);});
+  })();
+  (function(){
+    if(!("IntersectionObserver" in window))return;
+    var secs=document.querySelectorAll(".menu-section");
+    if(!secs.length)return;
+    var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add("is-visible");io.unobserve(e.target);}});},{rootMargin:"0px 0px -15% 0px",threshold:0.08});
+    secs.forEach(function(s){io.observe(s);});
+  })();
+  (function(){
+    var lightbox=document.querySelector("[data-lightbox]");
+    if(!lightbox)return;
+    var items=Array.from(document.querySelectorAll("[data-lightbox-item]"));
+    if(!items.length)return;
+    var img=lightbox.querySelector("[data-lightbox-img]");
+    var cap=lightbox.querySelector("[data-lightbox-cap]");
+    var counter=lightbox.querySelector("[data-lightbox-counter]");
+    var idx=0;
+    function show(i){
+      idx=(i+items.length)%items.length;
+      var el=items[idx];
+      img.src=el.querySelector("img").getAttribute("src");
+      img.alt=el.querySelector("img").getAttribute("alt")||"";
+      cap.textContent=el.getAttribute("data-caption")||"";
+      counter.textContent=(idx+1)+" / "+items.length;
+    }
+    function open(i){show(i);lightbox.setAttribute("data-open","true");lightbox.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll");}
+    function close(){lightbox.setAttribute("data-open","false");lightbox.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");}
+    items.forEach(function(item,i){item.addEventListener("click",function(e){e.preventDefault();open(i);});});
+    lightbox.querySelector("[data-lightbox-close]").addEventListener("click",close);
+    lightbox.querySelector("[data-lightbox-prev]").addEventListener("click",function(){show(idx-1);});
+    lightbox.querySelector("[data-lightbox-next]").addEventListener("click",function(){show(idx+1);});
+    lightbox.addEventListener("click",function(e){if(e.target===lightbox)close();});
+    document.addEventListener("keydown",function(e){
+      if(lightbox.getAttribute("data-open")!=="true")return;
+      if(e.key==="Escape")close();
+      if(e.key==="ArrowLeft")show(idx-1);
+      if(e.key==="ArrowRight")show(idx+1);
+    });
+  })();
 </script>
 
 </body>

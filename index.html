@@ -3,15 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Market &amp; Main · Local Eatery · Coming to Troy, IL</title>
-<meta name="description" content="A new restaurant from Evan and Gina Buchholz of Cleveland-Heath. Comfort food with intention. Opening 2026 at 104 N Main Street in downtown Troy, Illinois.">
+<title>Market &amp; Main · Local Eatery · Troy, IL</title>
+<meta name="description" content="Comfort food with intention from Evan and Gina Buchholz of Cleveland-Heath. Now open at 106 N Main Street in downtown Troy, Illinois. Dinner Tuesday through Saturday.">
 <meta name="theme-color" content="#1F2A12">
-<link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 <link rel="canonical" href="https://www.marketandmaintroy.com/">
 
 <meta property="og:type" content="restaurant">
 <meta property="og:title" content="Market &amp; Main · Local Eatery · Troy, IL">
-<meta property="og:description" content="A new restaurant from the owners of Cleveland-Heath. Comfort food with intention. Opening 2026.">
+<meta property="og:description" content="Comfort food with intention from the owners of Cleveland-Heath. Now open on Main Street in Troy, Illinois.">
 <meta property="og:url" content="https://www.marketandmaintroy.com/">
 <meta property="og:image" content="https://www.marketandmaintroy.com/assets/images/storefront-sunset.jpg">
 
@@ -25,18 +27,27 @@
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Market & Main",
-  "alternateName": "Market and Main",
+  "alternateName": "Market and Main Local Eatery",
   "image": "https://www.marketandmaintroy.com/assets/images/storefront-sunset.jpg",
   "url": "https://www.marketandmaintroy.com/",
+  "telephone": "+1-618-505-0177",
+  "email": "marketandmaintroy@gmail.com",
   "servesCuisine": ["American", "Comfort Food", "New American"],
+  "priceRange": "$$",
+  "menu": "https://www.marketandmaintroy.com/menu",
+  "acceptsReservations": "True",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "104 N Main Street",
+    "streetAddress": "106 N Main Street",
     "addressLocality": "Troy",
     "addressRegion": "IL",
     "postalCode": "62294",
     "addressCountry": "US"
-  }
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"], "opens": "15:00", "closes": "21:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "15:00", "closes": "22:00" }
+  ]
 }
 </script>
 </head>
@@ -46,19 +57,19 @@
 
 <header class="nav" data-nav>
   <div class="container nav__inner">
-    <a href="/" class="nav__brand" aria-label="Market and Main home"><img src="/assets/brand/logo.svg" alt="Market &amp; Main" class="nav__brand-img nav__brand-img--light"><img src="/assets/brand/logo-dark.svg" alt="" aria-hidden="true" class="nav__brand-img nav__brand-img--dark"></a>
-    <nav aria-label="Primary"><ul class="nav__links"><li><a href="/about">About</a></li><li><a href="/menu">Menu Preview</a></li><li><a href="/contact">Visit</a></li></ul></nav>
+    <a href="/" class="nav__brand" aria-label="Market and Main home"><img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main" class="nav__brand-img nav__brand-img--light"><img src="/assets/brand/logo-official.png" alt="" aria-hidden="true" class="nav__brand-img nav__brand-img--dark"></a>
+    <nav aria-label="Primary"><ul class="nav__links"><li><a href="/about">About</a></li><li><a href="/menu">Menu</a></li><li><a href="/contact">Visit</a></li></ul></nav>
     <div class="nav__actions">
-      <a href="#stay-in-touch" class="nav__cta">Get Updates</a>
+      <a href="/contact" class="nav__cta">Reserve</a>
       <button class="nav__menu-btn" type="button" aria-label="Open menu" data-drawer-open><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
     </div>
   </div>
 </header>
 
 <div class="nav__drawer" data-drawer aria-hidden="true">
-  <div class="nav__drawer-head"><img src="/assets/brand/logo.svg" alt="Market &amp; Main"><button class="nav__menu-btn" type="button" aria-label="Close menu" data-drawer-close><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
-  <ul class="nav__drawer-links"><li><a href="/about">About</a></li><li><a href="/menu">Menu Preview</a></li><li><a href="/contact">Visit</a></li><li><a href="#stay-in-touch">Get Updates</a></li></ul>
-  <div class="nav__drawer-foot"><span>104 N Main St · Troy, IL</span><span>Opening 2026</span></div>
+  <div class="nav__drawer-head"><img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main"><button class="nav__menu-btn" type="button" aria-label="Close menu" data-drawer-close><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+  <ul class="nav__drawer-links"><li><a href="/about">About</a></li><li><a href="/menu">Menu</a></li><li><a href="/contact">Visit</a></li><li><a href="tel:+16185050177">618.505.0177</a></li></ul>
+  <div class="nav__drawer-foot"><span>106 N Main St · Troy, IL</span><span>Tue–Sat from 3pm</span></div>
 </div>
 
 <main id="main">
@@ -67,53 +78,22 @@
   <section class="hero hero--photo">
     <div class="hero__bg"><img src="/assets/images/storefront-sunset.jpg" alt="Market &amp; Main storefront on Main Street in Troy under a sunset sky" style="object-position: center 62%;" loading="eager" fetchpriority="high"></div>
     <div class="container hero__inner">
-      <img src="/assets/brand/logo.svg" alt="Market &amp; Main" class="hero__logo">
+      <img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main" class="hero__logo">
       <p class="hero__tagline">This is comfort food with intention.</p>
-      <p class="hero__sub">A new restaurant from Evan and Gina Buchholz of Cleveland-Heath, coming home to Main Street in downtown Troy.</p>
+      <p class="hero__sub">From Evan and Gina Buchholz of Cleveland-Heath. Now open on Main Street in downtown Troy.</p>
       <div class="btn-row">
-        <a href="#stay-in-touch" class="btn btn--primary btn--lg">Get Opening Updates</a>
-        <a href="/about" class="btn btn--outline-light btn--lg">Read Our Story</a>
+        <a href="/menu" class="btn btn--primary btn--lg">See the Menu</a>
+        <a href="/contact" class="btn btn--outline-light btn--lg">Plan Your Visit</a>
       </div>
     </div>
   </section>
 
-  <!-- OPENING BANNER -->
+  <!-- NOW OPEN BANNER -->
   <section class="opening-banner">
     <div class="container opening-banner__inner">
       <span class="opening-banner__star">✦</span>
-      <span>Opening <span class="opening-banner__date">2026</span> · 104 N Main Street · Troy, Illinois</span>
+      <span><span class="opening-banner__date">Now open</span> · Tuesday through Saturday from 3pm · 106 N Main Street, Troy</span>
       <span class="opening-banner__star">✦</span>
-    </div>
-  </section>
-
-  <!-- ============ COUNTDOWN ============ -->
-  <section class="countdown-section">
-    <div class="container">
-      <div class="countdown-inner">
-        <span class="countdown-eyebrow">Counting down to opening day</span>
-        <div class="countdown" data-countdown data-target="2026-06-01T17:00:00-05:00" aria-live="polite">
-          <div class="countdown__cell">
-            <span class="countdown__num" data-countdown-days>—</span>
-            <span class="countdown__label">Days</span>
-          </div>
-          <div class="countdown__sep" aria-hidden="true">·</div>
-          <div class="countdown__cell">
-            <span class="countdown__num" data-countdown-hours>—</span>
-            <span class="countdown__label">Hours</span>
-          </div>
-          <div class="countdown__sep" aria-hidden="true">·</div>
-          <div class="countdown__cell">
-            <span class="countdown__num" data-countdown-minutes>—</span>
-            <span class="countdown__label">Minutes</span>
-          </div>
-          <div class="countdown__sep" aria-hidden="true">·</div>
-          <div class="countdown__cell">
-            <span class="countdown__num" data-countdown-seconds>—</span>
-            <span class="countdown__label">Seconds</span>
-          </div>
-        </div>
-        <p class="countdown-foot"><span class="script">Until we open the doors at 104 North Main.</span></p>
-      </div>
     </div>
   </section>
 
@@ -128,23 +108,23 @@
         <div class="split__body">
           <span class="eyebrow">The concept</span>
           <h2>Comfort food,<br><span class="italic-display" style="color: var(--olive);">with intention.</span></h2>
-          <p>Familiar dishes you'd order anywhere — done with the care you'd expect at a much more serious restaurant, then layered with flavors you wouldn't expect.</p>
-          <p>A burger you've had before, made the way it should be. A fried chicken sandwich with Szechuan heat. A weekly menu that pulls ingredients from this region and ideas from much further away.</p>
-          <p><span class="script" style="font-size: 1.25rem;">Local eatery</span> — that's the line on the logo for a reason.</p>
+          <p>Familiar dishes you'd order anywhere, done with the care you'd expect at a much more serious restaurant, then layered with flavors you wouldn't expect.</p>
+          <p>A burger you've had before, made the way it should be. A fried chicken sandwich with Szechuan heat. A menu that pulls ingredients from this region and ideas from much further away.</p>
+          <p><a href="/menu" class="link-underline">See what's on the menu →</a></p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ ANTICIPATION MARQUEE ============ -->
-  <section class="mm-marquee" aria-label="What's coming">
+  <!-- ============ MARQUEE ============ -->
+  <section class="mm-marquee" aria-label="What we're about">
     <div class="mm-marquee__track">
       <div class="mm-marquee__group">
         <span class="mm-marquee__item">Local Eatery</span>
         <span class="mm-marquee__star" aria-hidden="true">✦</span>
-        <span class="mm-marquee__item">Opening 2026</span>
+        <span class="mm-marquee__item">Now Open</span>
         <span class="mm-marquee__star" aria-hidden="true">✦</span>
-        <span class="mm-marquee__item">104 N Main Street</span>
+        <span class="mm-marquee__item">106 N Main Street</span>
         <span class="mm-marquee__star" aria-hidden="true">✦</span>
         <span class="mm-marquee__item">From the owners of Cleveland-Heath</span>
         <span class="mm-marquee__star" aria-hidden="true">✦</span>
@@ -156,9 +136,9 @@
       <div class="mm-marquee__group" aria-hidden="true">
         <span class="mm-marquee__item">Local Eatery</span>
         <span class="mm-marquee__star">✦</span>
-        <span class="mm-marquee__item">Opening 2026</span>
+        <span class="mm-marquee__item">Now Open</span>
         <span class="mm-marquee__star">✦</span>
-        <span class="mm-marquee__item">104 N Main Street</span>
+        <span class="mm-marquee__item">106 N Main Street</span>
         <span class="mm-marquee__star">✦</span>
         <span class="mm-marquee__item">From the owners of Cleveland-Heath</span>
         <span class="mm-marquee__star">✦</span>
@@ -189,53 +169,53 @@
         <div class="split__body">
           <span class="eyebrow" style="color: var(--olive-pale);">The room</span>
           <h2 style="color: var(--paper);">A garage door<br><span class="italic-display" style="color: var(--olive-pale);">to the sidewalk.</span></h2>
-          <p>Eighty seats inside the former American Legion Post 708 building. A roll-up garage door across the front. When the weather is right, the room opens up to Main Street and Troy walks past your plate.</p>
-          <p>A larger kitchen than Cleveland-Heath, which means Evan can finally cook the menu he's been thinking about for fifteen years. Pickup will be ready when you are. No outside seating, but with the garage door open you almost don't need it.</p>
+          <p>A roll-up garage door across the front of the room. When the weather is right, the dining room opens up to Main Street and Troy walks past your plate.</p>
+          <p>A bigger kitchen than Cleveland-Heath, which means Evan can finally cook the menu he's been thinking about for fifteen years. Pickup is ready when you are.</p>
         </div>
-        <div class="split__media split__media--wide"><img src="/assets/images/exterior-night.jpg" alt="Market &amp; Main exterior at night"><div class="split__media-cap" style="background: var(--olive-deep);">104 N Main · Troy</div></div>
+        <div class="split__media split__media--wide"><img src="/assets/images/exterior-night.jpg" alt="Market &amp; Main exterior at night"><div class="split__media-cap" style="background: var(--olive-deep);">106 N Main · Troy</div></div>
       </div>
     </div>
   </section>
 
-  <!-- WHAT TO EXPECT -->
+  <!-- ON THE MENU -->
   <section class="section">
     <div class="container">
       <div class="section-head section-head--center">
-        <span class="eyebrow">What to expect</span>
-        <h2>The shape<br><span class="italic-display" style="color: var(--olive);">of the menu.</span></h2>
-        <p class="lead" style="margin-inline: auto;">The full menu lands the week we open. Here's the direction.</p>
+        <span class="eyebrow">On the menu</span>
+        <h2>Comfort, pulled<br><span class="italic-display" style="color: var(--olive);">from everywhere.</span></h2>
+        <p class="lead" style="margin-inline: auto;">A burger and a fried chicken sandwich, sure. Then a Cubano, a smashed gyro, and a dinner-only filet. The menu changes with the season.</p>
       </div>
       <div class="info-grid info-grid--three">
         <div class="info-card">
           <h3>Sandwiches &amp; burgers</h3>
-          <p class="text-muted">A burger, a fried chicken sandwich, a daily melt. The comfort plates everyone wants, made carefully.</p>
+          <p class="text-muted">The Gold Rush burger, a crispy Szechuan chicken, a Cubano, a smashed gyro. Each one comes with fries or a simple green salad.</p>
         </div>
         <div class="info-card">
-          <h3>Globally inspired plates</h3>
-          <p class="text-muted">Comfort food with worldly ingredients. Szechuan heat in places you don't expect it. The kitchen pulls from wherever the flavor wants to go.</p>
+          <h3>From the farms</h3>
+          <p class="text-muted">Salads, grilled carrots, salt-roasted beets, parmesan green beans. Local ingredients in globally inspired preparations.</p>
         </div>
         <div class="info-card">
-          <h3>Sunday brunch</h3>
-          <p class="text-muted">Closed Mondays — open Tuesdays through Saturdays for lunch and dinner. Sunday is brunch only, all day.</p>
+          <h3>Dinner only, from 5pm</h3>
+          <p class="text-muted">A Creek Stone filet, North Atlantic blue mussels, Peruvian chicken, pappardelle. The kitchen stretches its legs at night.</p>
         </div>
+      </div>
+      <div class="btn-row" style="justify-content: center; margin-top: var(--space-6);">
+        <a href="/menu" class="btn btn--primary btn--lg">See the Full Menu</a>
       </div>
     </div>
   </section>
 
-  <!-- NEWSLETTER -->
-  <section class="newsletter" id="stay-in-touch">
+  <!-- VISIT -->
+  <section class="section section--tight" id="visit" style="background: var(--bg-elevated); border-top: 1px solid var(--divider);">
     <div class="container">
-      <div class="newsletter__inner">
-        <div>
-          <span class="eyebrow">Be the first in the door</span>
-          <h2 class="newsletter__title">Get an email when we open.</h2>
-          <p class="newsletter__sub">We'll let you know the opening date, the first-week menu, and how to reserve a table. One email when there's something to say. We don't spam.</p>
-        </div>
-        <form class="newsletter__form" action="https://formspree.io/f/your-mm-newsletter" method="POST">
-          <label for="nl-email" class="sr-only">Email address</label>
-          <input id="nl-email" name="email" type="email" required autocomplete="email" placeholder="Your email">
-          <button type="submit" class="btn btn--primary">Notify Me</button>
-        </form>
+      <div class="section-head section-head--center">
+        <span class="eyebrow">Come see us</span>
+        <h2>Open on Main Street.</h2>
+        <p class="lead" style="margin-inline: auto;">106 N Main Street, Troy, Illinois. Dinner Tuesday through Thursday 3 to 9, Friday and Saturday 3 to 10. Closed Mondays.</p>
+      </div>
+      <div class="btn-row" style="justify-content: center; margin-top: var(--space-5);">
+        <a href="/contact" class="btn btn--primary btn--lg">Hours &amp; Directions</a>
+        <a href="tel:+16185050177" class="btn btn--secondary btn--lg">Call 618.505.0177</a>
       </div>
     </div>
   </section>
@@ -247,7 +227,7 @@
   <div class="container sister-banner__inner">
     <div>
       <span class="sister-banner__eyebrow">From the same kitchen family</span>
-      <p class="sister-banner__title">Visit <strong>Cleveland-Heath</strong> in Edwardsville while you wait.</p>
+      <p class="sister-banner__title">Cleveland-Heath, the original, is open in <strong>Edwardsville</strong>.</p>
     </div>
     <a href="https://clevelandheath-website.vercel.app" class="btn">Cleveland-Heath →</a>
   </div>
@@ -257,17 +237,18 @@
   <div class="container">
     <div class="footer__top">
       <div class="footer__brand">
-        <img src="/assets/brand/logo.svg" alt="Market &amp; Main">
+        <img src="/assets/brand/logo-official-white.png" alt="Market &amp; Main">
         <span class="footer__tag">Local Eatery · Troy, IL</span>
-        <address class="footer__addr">104 N Main Street<br>Troy, IL 62294<br><a href="#stay-in-touch">Opening 2026</a></address>
+        <address class="footer__addr">106 N Main Street<br>Troy, IL 62294<br><a href="tel:+16185050177">618.505.0177</a></address>
       </div>
-      <div class="footer__col"><h4>The Restaurant</h4><ul><li><a href="/about">About</a></li><li><a href="/menu">Menu Preview</a></li><li><a href="/contact">Visit</a></li></ul></div>
+      <div class="footer__col"><h4>The Restaurant</h4><ul><li><a href="/about">About</a></li><li><a href="/menu">Menu</a></li><li><a href="/contact">Visit</a></li></ul></div>
       <div class="footer__col"><h4>Sister Restaurant</h4><ul><li><a href="https://clevelandheath-website.vercel.app">Cleveland-Heath</a></li><li><a href="https://clevelandheath-website.vercel.app/about">The Buchholz Story</a></li></ul></div>
     </div>
     <div class="footer__bottom">
       <span>© 2026 Market &amp; Main. All rights reserved.</span>
       <ul class="footer__social">
-        <li><a href="https://www.facebook.com/p/Market-Main-61588604853733/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></li>
+        <li><a href="https://www.instagram.com/marketandmaintroy" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=61588604853733" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></li>
       </ul>
     </div>
   </div>
@@ -276,39 +257,6 @@
 <script>
   (function(){var n=document.querySelector("[data-nav]");if(!n)return;var u=function(){if(window.scrollY>40)n.classList.add("is-scrolled");else n.classList.remove("is-scrolled");};u();window.addEventListener("scroll",u,{passive:true});})();
   (function(){var d=document.querySelector("[data-drawer]");if(!d)return;var o=function(){d.dataset.open="true";d.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll");},c=function(){d.dataset.open="false";d.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");};document.querySelectorAll("[data-drawer-open]").forEach(function(b){b.addEventListener("click",o);});document.querySelectorAll("[data-drawer-close]").forEach(function(b){b.addEventListener("click",c);});d.querySelectorAll("a").forEach(function(a){a.addEventListener("click",c);});document.addEventListener("keydown",function(e){if(e.key==="Escape")c();});})();
-
-  // ---------- Opening countdown ----------
-  (function(){
-    var el=document.querySelector("[data-countdown]");
-    if(!el)return;
-    var target=new Date(el.getAttribute("data-target")).getTime();
-    var dEl=el.querySelector("[data-countdown-days]");
-    var hEl=el.querySelector("[data-countdown-hours]");
-    var mEl=el.querySelector("[data-countdown-minutes]");
-    var sEl=el.querySelector("[data-countdown-seconds]");
-    function pad(n){return n<10?"0"+n:""+n;}
-    function tick(){
-      var diff=target-Date.now();
-      if(diff<=0){
-        if(dEl)dEl.textContent="00";
-        if(hEl)hEl.textContent="00";
-        if(mEl)mEl.textContent="00";
-        if(sEl)sEl.textContent="00";
-        clearInterval(iv);
-        return;
-      }
-      var s=Math.floor(diff/1000);
-      var d=Math.floor(s/86400); s-=d*86400;
-      var h=Math.floor(s/3600);  s-=h*3600;
-      var m=Math.floor(s/60);    s-=m*60;
-      if(dEl)dEl.textContent=d;
-      if(hEl)hEl.textContent=pad(h);
-      if(mEl)mEl.textContent=pad(m);
-      if(sEl)sEl.textContent=pad(s);
-    }
-    tick();
-    var iv=setInterval(tick,1000);
-  })();
   // Cinematic reveals
   (function(){if(!("IntersectionObserver" in window))return;var els=document.querySelectorAll(".reveal,[data-stagger]");if(!els.length)return;var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add("is-visible");io.unobserve(e.target);}});},{rootMargin:"0px 0px -10% 0px",threshold:0.08});els.forEach(function(el){io.observe(el);});})();
 </script>
