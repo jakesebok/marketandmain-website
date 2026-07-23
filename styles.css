@@ -525,12 +525,30 @@ p { max-width: 65ch; }
 .footer__col a:hover { color: var(--olive-pale); }
 
 .footer__bottom { display: grid; gap: var(--space-3); padding-top: var(--space-5); font-size: 0.8125rem; color: rgba(255, 255, 255, 0.7); }
-@media (min-width: 720px) { .footer__bottom { grid-template-columns: 1fr auto; align-items: center; } }
+@media (min-width: 720px) { .footer__bottom { grid-template-columns: 1fr auto auto; align-items: center; } }
+
+.footer__legal { display: flex; flex-wrap: wrap; gap: var(--space-3); list-style: none; padding: 0; margin: 0; }
+.footer__legal a { color: rgba(255, 255, 255, 0.7); }
+.footer__legal a:hover { color: var(--olive-light); }
 
 .footer__social { display: flex; gap: var(--space-3); list-style: none; padding: 0; margin: 0; }
 .footer__social a { width: 38px; height: 38px; border-radius: 999px; display: grid; place-items: center; background: rgba(255, 255, 255, 0.15); color: var(--paper); }
 .footer__social svg { width: 16px; height: 16px; }
 .footer__social a:hover { background: var(--paper); color: var(--olive); }
+
+/* ---------- Legal pages (privacy / terms) ---------- */
+.legal-page { padding: calc(var(--nav-h, 76px) + var(--space-7)) 0 var(--space-8); }
+.legal-wrap { max-width: 760px; margin: 0 auto; padding: 0 var(--space-4); color: var(--text); line-height: 1.7; }
+.legal-wrap h1 { font-family: var(--font-display, "Fraunces", serif); font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.1; margin: 0 0 var(--space-2); }
+.legal-wrap h2 { font-family: var(--font-display, "Fraunces", serif); font-size: 1.375rem; line-height: 1.2; margin: var(--space-6) 0 var(--space-2); }
+.legal-wrap h3 { font-size: 1.0625rem; font-weight: 600; margin: var(--space-4) 0 var(--space-1); }
+.legal-wrap p, .legal-wrap li { color: var(--text); }
+.legal-wrap p { margin: 0 0 var(--space-3); }
+.legal-wrap ul { margin: 0 0 var(--space-3); padding-left: 1.25rem; }
+.legal-wrap li { margin-bottom: var(--space-1); }
+.legal-wrap a { color: var(--olive); text-decoration: underline; text-underline-offset: 2px; }
+.legal-wrap a:hover { color: var(--olive-light); }
+.legal-wrap .legal-meta { color: var(--text-muted); font-size: 0.875rem; margin-bottom: var(--space-5); }
 
 /* ---------- Utility ---------- */
 .text-olive { color: var(--olive); }
